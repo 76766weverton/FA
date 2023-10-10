@@ -67,7 +67,7 @@ function resposta(respostaUsuario) {
         mensagemElement.textContent = 'Resposta correta! Parabéns!';
         mensagemElement.classList.add('mensagem-correta');
     } else {
-        mensagemElement.textContent = 'Resposta errada. Tente novamente.';
+        mensagemElement.textContent = 'Resposta errada.';
         mensagemElement.classList.add('mensagem-incorreta');
     }
 
