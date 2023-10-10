@@ -5,6 +5,7 @@ body {
 }
 
 .quiz-container {
+
     max-width: 500px;
     margin: 20px;
     margin-top: 90px;
@@ -13,35 +14,54 @@ body {
     /*border: 1px solid #ccc; */
     border-radius: 15px;
     text-align: center;
-    background-color: #edeff0;
+   
     font-size: 30px;
- 
-    background-color: rgb(48, 140, 140);
+    background-color: #edeff0;
+    /*border: 1px solid #ccc; */
+    
    
 }
 
 h1 {
     font-size: 34px;
+    margin-top: 100px;
 }
 
 p {
-    font-size: 28px;
+    font-size: 289px;
 }
+
 
 
 .question {
-    margin-bottom: 78px;
+   
+    margin-top: auto;
+    background-color: #FF5733;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .button {
+    
+    margin: auto;
+    width: 150px; /* Defina o tamanho fixo que desejar */
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
+    background-image: linear-gradient(to bottom, #0bdddd, #273b64); /* Gradiente linear de azul */
+    background-color: #130303; /* Cor de fallback para navegadores mais antigos */
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: opacity 0.3s; /* Adiciona uma transição suave para a propriedade de opacidade */
 }
+
+.button:hover {
+    opacity: 0.5; /* Diminui a opacidade ao passar o cursor sobre o botão */
+}
+
+
+
 /* styles.css */
 /* ... (seu código CSS existente) */
 
