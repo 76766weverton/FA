@@ -3,9 +3,21 @@ let perguntaAtual = 0;
 let acertos = 0;
 const todasPerguntas = [
     // Suas perguntas aqui...
-    { texto: 'O céu é azul?', resposta: 'certo' },
-    { texto: 'A Terra gira em torno do Sol?', resposta: 'certo' },
+    { texto: 'Segundo o Art. 28-A, quando o investigado confessa formal e circunstancialmente a prática de infração penal sem violência ou grave ameaça e com pena mínima inferior a quatro anos, o Ministério Público não poderá propor acordo de não persecução penal.', resposta: 'certo' },
+
+    
+    { texto: 'De acordo com o Art. 28-A, uma das condições para a proposta de acordode não persecução penal é a reparação do dano ou a restituição da coisa à vítima,exceto na impossibilidade de fazê-lo.', resposta: 'certo' },
+
+
+
+
+    
     // Adicione mais perguntas semelhantes aqui...
+    { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
+    { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
+    { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
+    { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
+    { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
     { texto: 'A velocidade da luz é maior do que a velocidade do som?', resposta: 'certo' },
     { texto: 'O oxigênio é o gás mais abundante na atmosfera da Terra?', resposta: 'errado' },
     { texto: 'A água ferve a 100 graus Fahrenheit?', resposta: 'errado' },
