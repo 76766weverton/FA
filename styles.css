@@ -57,7 +57,7 @@ p {
 }
 
 .button:hover {
-    opacity: 0.5; /* Diminui a opacidade ao passar o cursor sobre o botão */
+    opacity: 1.1; /* Diminui a opacidade ao passar o cursor sobre o botão */
 }
 
 
